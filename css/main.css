@@ -1,3 +1,27 @@
 /*
  * Estilos de tu proyecto
  */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  margin: 0 auto;
+  padding: 0;
+  font-size: 16px;
+  font-family: 'Lato','Helvetica Neue',Helvetica,Arial,sans-serif;
+  line-height: 1.71429;
+  background-color: #fff;
+  color: #fff;
+}
+.bg-aqua{
+	background-color: #18BC9C;
+}
