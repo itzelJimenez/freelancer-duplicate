@@ -22,6 +22,7 @@
 	padding: 12px;
 	float: left;
 	text-align: center;
+	
 }
 .row:before, .row:after{
 	content: " ";

@@ -1,3 +1,4 @@
+
 /*
  * Estilos de tu proyecto
  */
@@ -20,8 +21,48 @@ body {
   font-family: 'Lato','Helvetica Neue',Helvetica,Arial,sans-serif;
   line-height: 1.71429;
   background-color: #fff;
+  color: black;
+  width: 100%;
+}
+a{
+  text-decoration: none;
   color: #fff;
 }
+#nav{
+  background-color: #18BC9C;
+  width: 100%;
+  position: fixed;
+
+}
+nav :first-child{
+  text-align: left;
+  margin-left: 2%;
+}
+.col-4>img{
+  width: 100%;
+}
+.container{
+  width: 100%;
+  max-width: 1200px;
+  margin: 0px auto;
+}
 .bg-aqua{
-	background-color: #18BC9C;
+  background-color: #18BC9C;
+}
+hr{
+  width: 25%;
+}
+form{
+  margin: 10%;
+}
+input, textarea{
+  border: none;
+  border-bottom: solid 1px;
+  width: 100%;
+}
+#send{
+  width: 10%;
+  height: 35px;
+  margin-top: 2%;
+  margin-left: 5%;
 }
