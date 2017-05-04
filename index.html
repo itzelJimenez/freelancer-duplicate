@@ -10,166 +10,172 @@
 </head>
 <body>
 	<!-- Comienza encabezado -->
-	<header>
-		<nav>
-			<span>
-				<h2>Start bootstrap</h2>
+	<section id="nav" class="container">
+		<div class="row">
+			<nav>
+				<span class="col-9">
+				<a href="#">Start Bootstrap</a>
 			</span>
-			<span>
+			<span class="col-1">
 				<a href="#">Portafolio</a>
 			</span>
-			<span>
+			<span class="col-1">
 				<a href="#">About</a>
 			</span>
-			<span>
+			<span class="col-1">
 				<a href="#">Contac</a>
 			</span>
-		</nav>
-	</header>
+			</nav>
+		</div>
+	</section>
 	<!-- Termina encabezado, comienza sección home-->
-	<section id="home">
-		<div class="container">
-			<div>
+	<section id="home" class="container">
+		<div class="row">
+			<div class="col-12">
 				<img src="assets/images/profile.png">
 			</div>
-			<span>
+		</div>
+		<div class="row">
+			<span class="col-12">
 				<h1>Start bootstrap</h1>
 			</span>
-			<div>
+		</div>
+		<div class="row">
+			<span class="col-12">
 				<hr>
-			</div>
-			<span>
+			</span>
+		</div>
+		<div class="row">
+			<span class="col-12">
 				<h3>Web Developer - Graphic Artist - User Experience Designer</h3>
 			</span>
 		</div>
 	</section>
 	<!-- Termina home, comienza sección portafolio-->
-	<section id="portafolio">
-		<div class="container">
-			<span>
+	<section id="portafolio" class="container">
+		<div class="row">
+			<span class="col-12">
 				<h1>Portfolio</h1>
 			</span>
+		</div>
+		<div class="row">
 			<div>
 				<hr>
 			</div>
-			<div>
-				<div>
-					<img src="assets/images/portfolio/cabin.png">
-				</div>
-				<div>
-					<img src="assets/images/portfolio/cake.png">
-				</div>
-				<div>
-					<img src="assets/images/portfolio/circus.png">
-				</div>
+		</div>	
+		</div class="row">
+			<div class="col-4">
+				<img src="assets/images/portfolio/cabin.png">
 			</div>
-			<div>
-				<div>
-					<img src="assets/images/portfolio/game.png">
-				</div>
-				<div>
-					<img src="assets/images/portfolio/safe.png">
-				</div>
-				<div>
-					<img src="assets/images/portfolio/submarine.png">
-				</div>
+			<div class="col-4">
+				<img src="assets/images/portfolio/cake.png">
+			</div>
+			<div class="col-4">
+				<img src="assets/images/portfolio/circus.png">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-4">
+				<img src="assets/images/portfolio/game.png">
+			</div>
+			<div class="col-4">					
+				<img src="assets/images/portfolio/safe.png">
+			</div>
+			<div class="col-4">
+				<img src="assets/images/portfolio/submarine.png">
 			</div>
 		</div>
 	</section>
 	<!-- Termina portafolio, comienza sección about-->
-	<section id="about">
-		<div class="container">
-			<span>
+	<section id="about" class="container">
+		<div class="row">
+			<span class="col-12">
 				<h1>About</h1>
 			</span>
-			<div>
+		</div>
+		<div class="row">
+			<div class="col-12">
 				<hr>
 			</div>
-			<span>
+		</div>
+		<div class="row">
+			<div class="col-1"></div>
+			<span class="col-10">
 				<p>
 					Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.
 					Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!
 				</p>
 			</span>
-			<span>
+		</div>
+		<div class="row">
+			<div class="col-5"></div>
+			<span clas="col-1">
 				<img src="">
 				<label>Download Theme</label>
 			</span>
 		</div>
 	</section>
 	<!-- Termina about, comienza contac me-->
-	<section id="contacme">
-		<div class="container">
-			<span>
+	<section id="contacme" class="container">
+		<div class="row">
+			<span class="col-12">
 				<h1>Contact me</h1>
 			</span>
 			<div>
 				<hr>
 			</div>
-			<div>
-				<form>
-					<div>
-						<label>Name</label>
-					</div>
-					<div>
-						<input type="text" name="" placeholder="Name">
-					</div>
-					<span>
-						<hr>
-					</span>
-					<div>
-						<label>Email Adress</label>
-					</div>
-					<div>
-						<input type="text" name="" placeholder="Email Adress">
-					</div>
-					<span>
-						<hr>
-					</span>
-					<div>
-						<label>Phone Number</label>
-					</div>
-					<div>
-						<input type="text" name="" placeholder="Phone Number">
-					</div>
-					<span>
-						<hr>
-					</span>
-					<div>
-						<label>Message</label>
-					</div>
-					<div>
-						<textarea></textarea>
-					</div>
-					<span>
-						<hr>
-					</span>
-					<div>
-						<input type="submit" value="Send" name="send">
-					</div>
-				</form>
-			</div>
+		</div>
+		<div>
+			<form>
+				<div class="row">
+					<label>Name</label>
+				</div>
+				<div class="row">
+					<input type="text" name="" placeholder="Name">
+				</div>
+				<div class="row">
+					<label>Email Adress</label>
+				</div>
+				<div class="row">
+					<input type="text" name="" placeholder="Email Adress">
+				</div>
+				<div class="row">
+					<label>Phone Number</label>
+				</div>
+				<div class="row">
+					<input type="text" name="" placeholder="Phone Number">
+				</div>
+				<div class="row">
+					<label>Message</label>
+				</div>
+				<div class="row">
+					<textarea></textarea>
+				</div>
+				<div class="row">
+					<input type="submit" value="Send" id="send">
+				</div>
+			</form>
 		</div>
 	</section>
 	<!-- Termina contac me, comienza footer-->
 	<footer>
 		<div class="container">
-			<div>
-				<span>
+			<div class="col-12">
+				<span class="col-4">
 					<h2>LOCATION</h2>
 				</span>
-				<span>
+				<span class="col-4">
 					<h2>AROUND THE WEB</h2>
 				</span>
-				<span>
+				<span class="col-4">
 					<h2>ABOUT FREELANCER</h2>
 				</span>
 			</div>
-			<div>
-				<span>
+			<div class="col-12">
+				<span class="col-4">
 					<p>3481 Melrose Place Beverly Hills, CA 90210</p>
 				</span>
-				<div>
+				<div class="col-4">
 					<div>
 						<img src="">
 					</div>
@@ -183,12 +189,12 @@
 						<img src="">
 					</div> 	
 				</div>
-				<span>
-					<p>Freelance is a free to use, open source Bootstrap theme created by <a href="#">Start Bootstrap</a>.</p>
+				<span class="col-4">
+					<p>Freelance is a free to use, open source Bootstrap theme created by<a href="#">Start Bootstrap</a>.</p>
 				</span>
 			</div>
-			<div>
-				<label>Copyright © Your Website 2016</label>
+			<div class="row">
+				<label class="col-12">Copyright © Your Website 2016</label>
 			</div>
 		</div>
 	</footer>
