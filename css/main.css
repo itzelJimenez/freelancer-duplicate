@@ -18,7 +18,7 @@ body {
   margin: 0 auto;
   padding: 0;
   font-size: 16px;
-  font-family: 'Lato','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
   line-height: 1.71429;
   background-color: #fff;
   color: #fff;
@@ -28,19 +28,50 @@ a{
   text-decoration: none;
   color: #fff;
 }
-h2{
-    font-weight: 700;
-    text-transform: uppercase;
+.link-nav{
+  font-size: 1.79em;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 29px;
 }
-#nav{
-  width: 100%;
-  height: 100px;
-  position: fixed;
-  padding-top: 2%;
+.link{
+  font-size: .9em;
+  line-height: 29px;
+  font-weight: 600;
+  text-transform: uppercase;
 }
+.link:hover{
+  color: #18BC9C;
+}
+
 nav :first-child{
   text-align: left;
-  margin-left: 2%;
+  margin-left: 3%;
+}
+h1,h2{
+    margin-top: 0px;
+    padding-top: 0px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 4.50em;  font-size: 2em
+}
+h1{
+  font-size: 4.50em;
+  margin-bottom:0px;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+ h2{
+  margin-top: 5%;
+  margin-bottom: 0px;
+  font-size: 3em;
+ }
+h3{
+  margin-top: 0px;
+  padding-top: 0px;
+  margin-bottom: 10%;
+  font-size: 1.5em;
+  font-weight: 0;
 }
 .col-4>img{
   width: 100%;
@@ -69,7 +100,7 @@ hr{
   height: 500px;
 }
 #home{
-  padding-top: 10%;
+  padding-top: 15%;
 }
 form{
   margin: 10%;
@@ -87,4 +118,30 @@ input, textarea{
 }
 .centrado{
   margin-left: 30%;
+}
+#about button {
+    padding: 15px 40px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 3px solid #fff;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.nav-bar{
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  padding-top: 2%;
+  background-color: #2C3E50;
+  max-width: 1200px;
+  margin: 0px auto;
+  position: fixed;
+}
+.nav-modal{
+  width: 100%;
+  height: 70px;
+  position: fixed;
+  padding-top: 1%;
+  font-size: small;
+  background-color: #2C3E50;
 }
