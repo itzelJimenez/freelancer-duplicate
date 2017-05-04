@@ -35,7 +35,7 @@ a{
   line-height: 29px;
 }
 .link{
-  font-size: .9em;
+  font-size: .7em;
   line-height: 29px;
   font-weight: 600;
   text-transform: uppercase;
@@ -144,4 +144,8 @@ input, textarea{
   padding-top: 1%;
   font-size: small;
   background-color: #2C3E50;
+}
+.padding{
+  padding: 20% 15%;
+  background-color: #18BC9C;
 }
