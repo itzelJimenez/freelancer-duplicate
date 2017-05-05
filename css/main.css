@@ -43,7 +43,9 @@ a{
 .link:hover{
   color: #18BC9C;
 }
-
+section{
+  width: 100%;
+}
 nav :first-child{
   text-align: left;
   margin-left: 3%;
@@ -76,10 +78,11 @@ h3{
 .col-4>img{
   width: 100%;
 }
-.container{
+.col-4>img:hover{
+  content: url(../assets/images/lupa.png);
+  background-color: #18BC9C;
+  opacity: 1;
   width: 100%;
-  max-width: 1200px;
-  margin: 0px auto;
 }
 .bg-aqua{
   background-color: #18BC9C;
@@ -133,9 +136,7 @@ input, textarea{
   position: fixed;
   padding-top: 2%;
   background-color: #2C3E50;
-  max-width: 1200px;
   margin: 0px auto;
-  position: fixed;
 }
 .nav-modal{
   width: 100%;
