@@ -35,7 +35,7 @@ a{
   line-height: 29px;
 }
 .link{
-  font-size: .9em;
+  font-size: .7em;
   line-height: 29px;
   font-weight: 600;
   text-transform: uppercase;
@@ -43,7 +43,12 @@ a{
 .link:hover{
   color: #18BC9C;
 }
-
+section{
+  width: 100%;
+}
+#about{
+  height: 500px;
+}
 nav :first-child{
   text-align: left;
   margin-left: 3%;
@@ -76,10 +81,11 @@ h3{
 .col-4>img{
   width: 100%;
 }
-.container{
+.col-4>img:hover{
+  content: url(../assets/images/lupa.png);
+  background-color: #18BC9C;
+  opacity: 1;
   width: 100%;
-  max-width: 1200px;
-  margin: 0px auto;
 }
 .bg-aqua{
   background-color: #18BC9C;
@@ -119,13 +125,22 @@ input, textarea{
 .centrado{
   margin-left: 30%;
 }
-#about button {
+#about button, #send{
     padding: 15px 40px;
-    background-color: rgba(255, 255, 255, 0);
+    background-color: #18BC9C;
     border: 3px solid #fff;
     color: #fff;
     font-size: 20px;
     border-radius: 10px;
+}
+#send{
+  padding: 15px 20px;
+  font-size: 15px;
+  height: 50px;
+}
+#about button:hover{
+  background-color: white;
+  color: #18BC9C;
 }
 .nav-bar{
   width: 100%;
@@ -133,9 +148,7 @@ input, textarea{
   position: fixed;
   padding-top: 2%;
   background-color: #2C3E50;
-  max-width: 1200px;
   margin: 0px auto;
-  position: fixed;
 }
 .nav-modal{
   width: 100%;
@@ -144,4 +157,51 @@ input, textarea{
   padding-top: 1%;
   font-size: small;
   background-color: #2C3E50;
+}
+.padding{
+  padding: 20% 15%;
+  background-color: #18BC9C;
+}
+#x{
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  color: gray;
+  font-size: 38px;
+  cursor: pointer;
+}
+#modal{
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.86);
+}
+.col-2>i{
+  border: solid 2px white;
+  height: 50px;
+  width: 50px;
+  border: 2px solid #fff;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 20px;
+  line-height: 45px;
+}
+.col-2>i:hover{
+  background-color: #fff;
+  color:#18BC9C;
+  cursor: pointer; 
+}
+.label-hidden{
+  visibility: hidden;
+  color: #18BC9C;
+}
+.placeholder{
+  font-size: 28px;
+  height: 70px;
 }
